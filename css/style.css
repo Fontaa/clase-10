@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.section-1{
+    background-color: chocolate;
+    width: 80vw;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+.text-1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-shadow: 2px 2px 2px black;
+}
+
+.text-2{
+    color: rgb(25, 0, 255);
+    margin: 10px 0;
+    text-align: end;
+    text-decoration: overline;
+    text-transform: capitalize;
+}
+
+.text-3{
+    color: rgb(94, 255, 0);
+    text-align: justify;
+    text-decoration: line-through double;
+    text-transform: uppercase;
+}
+
+.section-2{
+    width: 80vw;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    background-image: url("https://images.pexels.com/photos/16307711/pexels-photo-16307711/free-photo-of-paisaje-desierto-esteril-cabrio.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load");
+    background-position: 55% 55%;
+    background-repeat: no-repeat;
+    background-size: 86%;
+    background-attachment: fixed;
+    opacity: 0.5;
+}
+
+.section-2 ul{
+    margin: 10px 25px;
+    list-style-type: none;
+}
